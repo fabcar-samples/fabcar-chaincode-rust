@@ -10,7 +10,9 @@ edition = "2018"
 crate-type = ["cdylib"]
 
 [dependencies]
-fabric_contract = { git = "https://github.com/hyperledgendary/fabric-contract-api-rust", branch = "master" }
+protobuf = "2"
+fabric_ledger_protos = "0.4.0"
+fabric_contract = { git = "https://github.com/hyperledgendary/fabric-contract-api-rust", rev = "9afe16070b1993494d44738136049e9fe5bee69d" }
 # TODO these are required for the fabric_contract macros???
 log = "0.4.8"
 wapc-guest = "0.3.1"

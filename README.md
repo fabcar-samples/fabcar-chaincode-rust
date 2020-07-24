@@ -1,4 +1,4 @@
-# fabcar-rust
+# fabcar-contract-rust
 
 A more fab Fabcar in Rust
 
@@ -17,3 +17,7 @@ The following command will build a `target/wasm32-unknown-unknown/debug/fabcar_r
 ```
 cargo build --target wasm32-unknown-unknown
 ```
+
+## Deploy
+
+The [fabric-contract-api-rust](https://hyperledgendary.github.io/fabric-contract-api-rust/) documentation includes deployment guides for the [test network](https://hyperledger-fabric.readthedocs.io/en/release-2.2/test_network.html) and [Microfab](https://github.com/ibm-blockchain/microfab).
